@@ -1,54 +1,54 @@
 {
-    "name": "medicplus/laravel-timezone",
-    "description": "Timezone storage, retrieval and date conversion for Laravel (Based on jamesmills/laravel-timezone)",
-    "keywords": [
-        "medicplus",
-        "laravel",
-        "laravel-timezone",
-        "timezone"
-    ],
-    "homepage": "https://github.com/medic-plus/laravel-timezone",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-      {
-        "role": "Developer",
-        "name": "Ivan Vasquez",
-        "email": "ivanvasquezp@outlook.com",
-        "homepage": "https://www.ivanvasquez.net/"
-      }
-    ],
-    "autoload": {
-      "psr-4": {
-        "MedicPlus\\LaravelTimezone\\": "src/"
-      }
-    },
-    "autoload-dev": {
-      "psr-4": {
-        "MedicPlus\\LaravelTimezone\\Tests\\": "tests/"
-      }
-    },
-    "extra": {
-      "laravel": {
-          "providers": [
-              "MedicPlus\\LaravelTimezone\\LaravelTimezoneServiceProvider"
-          ]
-      }
-  },
-    "require": {
-        "php": "^8.0|^8.1|^8.2|^8.3|^8.4",
-        "laravel/framework": "^9.0|^10.0|^11.0|^12.0",
-        "nesbot/carbon": "^2.0|^3.0",
-        "torann/geoip": "^3.0"
-    },
-    "require-dev": {
-        "friendsofphp/php-cs-fixer": "^3.51"
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true,
-    "config": {
-      "sort-packages": true,
-      "preferred-install": "dist",
-      "optimize-autoloader": true
+  "name": "medicplus/laravel-timezone",
+  "description": "Timezone storage, retrieval and date conversion for Laravel (Based on jamesmills/laravel-timezone)",
+  "keywords": [
+    "medicplus",
+    "laravel",
+    "laravel-timezone",
+    "timezone"
+  ],
+  "homepage": "https://github.com/medic-plus/laravel-timezone",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Ivan Vasquez",
+      "email": "ivanvasquezp@outlook.com",
+      "homepage": "https://www.ivanvasquez.net/"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "MedicPlus\\LaravelTimezone\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MedicPlus\\LaravelTimezone\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "MedicPlus\\LaravelTimezone\\LaravelTimezoneServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.0|^8.1|^8.2|^8.3|^8.4",
+    "laravel/framework": "^9.0|^10.0|^11.0|^12.0|^13.0",
+    "nesbot/carbon": "^2.0|^3.0",
+    "torann/geoip": "^3.0"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.51"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  }
 }
